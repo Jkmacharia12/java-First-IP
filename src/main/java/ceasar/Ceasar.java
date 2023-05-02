@@ -71,9 +71,9 @@ public class Ceasar {
 
     public static void main(String[] args) {
         String text = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG";
-        String cipher = encrypt(text, 5);
+        String cipher = encrypt(text, 23);
         System.out.println(cipher);
-        String decrypted = decrypt(cipher, 5);
+        String decrypted = decrypt(cipher, 23);
         System.out.println(decrypted);
     }
 }
